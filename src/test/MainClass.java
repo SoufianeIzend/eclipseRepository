@@ -194,17 +194,7 @@ public class MainClass {
 				}
 
 			}
-			switch (calcul) {
-			case 1:
-				System.out.println("You have gotten 1 out of 3!");
-				break;
-			case 2:
-				System.out.println("You have gotten 2 out of 3!");
-				break;
-			case 3:
-				System.out.println("You have gotten 3 out of 3!");
-				break;
-			}
+			System.out.println("you have gotten "+ calcul +"/3 as a score!");
 
 			break;
 
